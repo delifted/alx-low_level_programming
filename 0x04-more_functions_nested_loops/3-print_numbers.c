@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.c"
 
 /**
  * print_numbers - print num from 0-9
@@ -7,7 +8,7 @@
 
 void print_numbers(void)
 {
-	char c:
+	char c;
 
 	for (c = '0'; c <= '9'; c++)
 	{
