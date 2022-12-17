@@ -1,8 +1,7 @@
 #include "main.h"
 #include "_putchar.c"
-
 /**
- * print_numbers - print num from 0-9
+ * print_numbers - print num from 0 - 9
  * Return: void
  */
 
