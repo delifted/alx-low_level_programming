@@ -2,19 +2,18 @@
 #include <string.h>
 
 /*
- * _puts_recursion: -> function to print a string
+ * _puts_recursion - function to print a string using recursive function.
  * @a: first integer
  * @b: second integer
  */
 
 void _puts_recursion(char *s)
 {
-	int a;
-	int b = strlen(s);
-
-	for (a = 0; a < b; a++)
+	if (*s == '\0')
 	{
-		_putchar(s[a]);
+		return;
 	}
+	_putchar(*(s));
+	_puts_recursion(s + 1);
 	_putchar('\n');
 }
