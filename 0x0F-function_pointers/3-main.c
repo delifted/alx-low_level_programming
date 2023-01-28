@@ -2,8 +2,8 @@
 
 /**
  * main - check the code for Students
- * argc: argument count
- * argv: argument vector
+ * @argc: argument count
+ * @argv: argument vector
  *
  * Return: Always 0.
  */
