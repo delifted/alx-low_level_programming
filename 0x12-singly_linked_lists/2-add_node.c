@@ -1,4 +1,3 @@
-cat 2-add_node.c 
 #include "lists.h"
 /**
  * add_node - adds a new node at the beginning
